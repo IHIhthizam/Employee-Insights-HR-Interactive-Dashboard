@@ -1,0 +1,123 @@
+
+body {
+    background-color: #1e272e;
+    font-family: Poppins, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.head_section {
+    color: #ffffff;
+    text-align: left;
+    font-size: 36px;
+    font-weight: bold;
+    padding: 20px 0;
+    margin: 20px;
+}
+
+.sub_head_section {
+    color: #ffffff;
+    text-align: left;
+    font-weight: 1px;
+    font-size: 14px;
+    margin: -20px 20px 20px ;
+}
+
+.footer_section {
+    color: #ffffff;
+    text-align: center;
+    font-size: 14px;
+    padding: 10px 0;
+}
+
+
+.tabs {
+    background-color: #1e272e;
+    font-weight: bold;
+    font-size: 16px;
+    color: #ffffff;
+    border: none;
+}
+
+
+.tabs > .tab {
+    background-color: #1e272e;
+    color: #3D3D3D;
+    border: 1px solid #ffffff;
+    /* padding: 10px; */
+    border-radius: 5px 5px 5px 5px;
+    font-weight: bold;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+
+.tabs > .tab:hover {
+    background-color: #1e272e;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+}
+
+
+.tabs > .tab--selected {
+    background-color: #BAD8B6;
+    color: #3D3D3D;
+    font-weight: bold;
+    border-bottom: 3px solid #3D3D3D;
+}
+
+
+.tab-content {
+    background-color: #1e272e;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); 
+    margin: 10px;
+}
+
+
+label {
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    display: block;
+}
+
+
+.line_chart, .scatter_plot, .tab3_charts, .tab4_charts {
+    background-color: #374149;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(255, 255, 255, 0.1);
+    padding: 10px;
+    margin: 10px 0;
+}
+
+
+
+.status_dropdown {
+    margin-top: 10px;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    color: #2b2f42;
+    background-color: #2b2f42;
+}
+
+.year_range {
+    margin-top: 10px;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    color: #ffffff;
+    background-color: #1e272e;
+}
+
+.year_label {
+    margin-top: 10px;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    color: #ffffff;
+}
+
